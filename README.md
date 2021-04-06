@@ -3,19 +3,18 @@
 
 ## At frist we took out the data might be inaccurate based on the project director information. which is 9th grade score inoformation. Second, we processed those names have prefix and suffix, so the name appearance is consistant. the passing score for both reading and math are 70, based on those information we calculate the passing rate for math, reading and both, and aggregate those information in dataframe and format it in presentable information. 
 
-* In district data
-  * we found the gerenally all the perfomance metric are improvedm such as please see the link
-* In summary data 
-  * the one got affected is thomas high school, there were 461 data removed,  the average score, passingrate are all changed
-* In spending data 
-  *the range of budget per students is between 628-645,the performance change of students in this budget range is very limited
-#* in grade score analysis
-  * the score of each grade goes little bit lower after removal of undesired data
-* in the size grade
-  * our team just find the range of size is not comparable and we are running out time, is no conclusion
-* In type data
-  * Nothing changed there, the reason is possiblely caused by the smaller size of change compare to the population size.
-[a link](https://github.com/ftjyangf/School_District_Analysis/tree/master/Resources/Source)
+* Summary result for this database
+  * What below is the summary information for schools and student performation 
+  * ![](https://github.com/ftjyangf/School_District_Analysis/blob/master/report/totalschool.PNG)
+* Summary data per school
+  * ![](https://github.com/ftjyangf/School_District_Analysis/blob/master/report/perschool.PNG)
+* After analyizing the school budget, the range of budget are grouped to see how the school budget affects students' performance 
+* ![](https://github.com/ftjyangf/School_District_Analysis/blob/master/report/budgetanalysis.PNG) 
+* As we can see, with the increase of school budget, student performance deteriorates
+* After analyizing the size of school, schools are grouped based on size
+* ![](https://github.com/ftjyangf/School_District_Analysis/blob/master/report/sizeanalysis.PNG)
+* As it shows, with school size becomes larger, students performance deteriorates
+* Students performance based on their grade
+* ![](https://github.com/ftjyangf/School_District_Analysis/blob/master/report/gradeanalysis.PNG)
 
-## Summery
-# We find marjor change in district data
+
