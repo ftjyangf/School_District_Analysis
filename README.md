@@ -1,7 +1,7 @@
-# overall of the school district analysis
-## School district has valuable infomation, maria wants to know the internal information between different category factors, and they are affecting each other. In this project, we set serval key metrics and present them in a table format and find general infomation such as average score and passing rate based on different attribute. At last, We get rid of some unreliable data, and perform same procedure and compare it with the intact data to see what we can find. 
+# Overall of the school district analysis
+## In this database, there are two tables. one has the information of students with their math score and reading score, and one has the schools information, such as school type and their budget. In this case, we are concentrate on students's alcademic performance based on subjects and the grade they belong to. also, we also analysize the school type, school size and school budget per student with the alcademic performance to see how those school factors affact on students' performance at school.
 
-## take off the undesired data, we took 461 data out of total 39170 data, after took the data out we find some difference
+## At frist we took out the data might be inaccurate based on the project director information. which is 9th grade score inoformation. Second, we processed those names have prefix and suffix, so the name appearance is consistant. the passing score for both reading and math are 70, based on those information we calculate the passing rate for math, reading and both, and aggregate those information in dataframe and format it in presentable information. 
 
 * In district data
   * we found the gerenally all the perfomance metric are improvedm such as please see the link
